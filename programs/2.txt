@@ -1,8 +1,0 @@
-Src-Dst Pair: ('00:01', '00:02')
-Total Sent Packets: 10
-Total Sent Bytes: 1250
-Total Received Packets: 10
-Total Received Bytes: 1250
-Average Throughput (bps): 999.9000099990002
-Average Delay (s): 0.901
-Lost Packets: 0

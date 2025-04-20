@@ -11,7 +11,7 @@
 参考文献 @textbook の通り，次の3つの課題に取り組む．
 
 == 課題1
-
+あいうえお
 
 == 演習課題2：ネットワークの遅延とスループットの測定
 かきくけこ
@@ -20,29 +20,36 @@
 さしすせそ
 
 = 実験設定
-以下の実験環境で実行した．
+@env に示す実験環境で実行した．
 
-// 表はfigureで囲んだ後にtableで囲む
-// 末尾の<>でラベルとして参照できる．
 #figure(
   table(
     align: horizon,
     columns: (10em, 10em),
     [実行環境], [Google Colob],
-    [言語], [Python]
+    [言語], [C++]
   ),
   caption: [実験環境],
-)<blossoms>
+)<env>
 
 = 解答
-== 演習課題1
+== 課題1
 まず，実行したプログラムを以下に示す．
 
-#sourcefile(read("./programs/1.py"), file: "1.py")
+#sourcefile(read("./programs/hello.cpp"), file: "hello.cpp")
 
-このプログラムの実行結果を以下に示す．
+このプログラムの実行結果を @dummy に示す．
 
-#sourcefile(read("./programs/1.txt"), file: "1.txt")
+#fig(
+  "./images/my_hand_fox.jpg",
+  caption: "My Icon",
+  width: 50%,
+  label: "dummy",
+)
 
+以上より，題意は示された．
+
+== 課題1
+かきくけこ
 
 #bibliography("./bib.bib", style: "ieee", full: true)
