@@ -10,7 +10,7 @@ Typstのレポートテンプレートです．
 このテンプレートはあくまでスタートアップ用です．もっとスーパーで最高なテンプレートがたくさんあります．
 
 ex)
-- [同期の天才フォーマット](https://github.com/kitashimauni/kitashimauni)
+- [同期の天才フォーマット](https://github.com/kitashimauni/report-tools)
 - [公式パッケージ](https://github.com/typst/packages)
 
 ※ [GithubでTypstと検索](https://github.com/search?q=Typst&type=repositories)すると，たくさんのテンプレートが出ます．気に入ったやつを使うのも良いでしょう．
