@@ -1,9 +1,21 @@
 #import "@preview/codelst:2.0.2": *
 #import "./styles/settings.typ": setting
+#import "./styles/title.typ": title
 #import "./utils.typ": * 
 
 // 全体設定の反映
 #show: setting
+
+#title(
+  title: "タイトル",
+  name: "はだしのゲンちゃんω",
+  submit-date: "2025-01-01",
+  subject: "パーフェクトさんすう教室",
+  teacher: "チルノ",
+  student-number: "20202020",
+  department: "工学部知能情報システム工学科",
+  grade: "1",
+)
 
 // TODO: 以下に本文を書く 
 
@@ -13,10 +25,10 @@
 == 課題1
 あいうえお
 
-== 演習課題2：ネットワークの遅延とスループットの測定
+== 課題2
 かきくけこ
 
-== 演習課題3：パケットロス率とネットワークパフォーマンスの関係
+== 課題3
 さしすせそ
 
 = 実験設定
