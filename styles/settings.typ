@@ -1,6 +1,7 @@
 #let setting(doc) = {
-  // 基本設定
-  // set page(paper: "a4", margin: (top: 30mm, bottom:30mm, left: 30mm, right: 30mm))
+  // フォント設定
+  // Windowsは上，MacOSは下を使用
+  set text(lang: "ja", font: ("Times New Roman", "Yu Mincho"), size: 11.5pt)
   set text(lang: "ja", font: ("Times New Roman", "YuMincho"), size: 11.5pt)
 
   // 字下げ

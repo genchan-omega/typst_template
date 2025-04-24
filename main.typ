@@ -62,6 +62,7 @@
 以上より，題意は示された．
 
 == 課題1
-かきくけこ
+かきくけこあいうえお
 
 #bibliography("./bib.bib", style: "ieee", full: true)
+q
